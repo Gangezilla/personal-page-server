@@ -1,33 +1,36 @@
 {
   "name": "personal-server",
   "version": "1.0.0",
-  "description": "personal server to host my webpage on",
+  "description": "server to host my personal page on",
   "engines": {
-    "node": "6.9.x"
+    "node": "8.5.0"
   },
-  "main": "index.js",
   "scripts": {
-    "watch": "nodemon src/app.js"
+    "watch": "nodemon app.js",
+    "test:unit": "cross-env NODE_ENV=test mocha --recursive test/unit"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "babel": "^6.23.0",
-    "babel-loader": "^7.1.2",
-    "ejs": "^2.5.7",
-    "eslint": "^4.5.0",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-config-airbnb-base": "^11.3.2",
-    "eslint-config-react-app": "^2.0.0",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.3.0",
-    "express": "^4.15.4",
+    "body-parser": "^1.17.2",
+    "classnames": "^2.2.5",
+    "cors": "^2.8.4",
+    "debug": "^2.6.8",
+    "dotenv-safe": "^4.0.4",
+    "express": "^4.14.1",
+    "express-session": "^1.15.3",
     "helmet": "^3.6.1",
-    "http-server": "^0.10.0",
-    "react": "^15.6.1",
-    "webpack": "^3.5.5",
-    "winston": "^2.4.0"
+    "winston": "^2.3.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-config-react-app": "^1.0.4",
+    "eslint-loader": "1.7.1",
+    "eslint-plugin-flowtype": "2.33.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "extract-text-webpack-plugin": "2.1.0"
   }
 }

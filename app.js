@@ -1,13 +1,9 @@
 const express = require('express');
 const path = require('path');
-// const bodyParser = require('body-parser');
-// const cookieParser = require('cookie-parser');
-const logger = require('./config/log');
+const logger = require('./config/logger');
 const helmet = require('helmet');
-// const session = require('express-session');
-// const cors = require('cors');
-
-// const { initPool } = require('./src/db');
+const bodyParser = require('body-parser');
+const routes = require('./routes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -18,16 +14,16 @@ app.use(express.static('build'));
 // }
 
 app.use(helmet());
-// app.use(cors({ credentials: true, origin: true }));
-// app.use(cookieParser());
 
-// app.use(bodyParser.urlencoded({
-//   extended: true,
-// }));
+app.use(bodyParser.urlencoded({
+  extended: true,
+}));
 
-// app.use(bodyParser.json({
-//   limit: '5mb',
-// }));
+app.use(bodyParser.json({
+  limit: '5mb',
+}));
+
+app.use('/', routes);
 
 logger.info('App has been initialised.');
 
