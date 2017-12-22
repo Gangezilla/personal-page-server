@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const routes = require('./routes');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Express only serves static assets in production
 // if (process.env.NODE_ENV === 'production') {

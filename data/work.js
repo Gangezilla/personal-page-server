@@ -1,8 +1,8 @@
 const work = [
   {
-    CompanyName: 'APG & Co.',
-    Role: 'Junior Web Developer',
-    Responsibilities: [
+    companyName: 'APG & Co.',
+    role: 'Junior Web Developer',
+    responsibilities: [
       'Created content assets for online team, and worked to implement new features on our front end',
       'Worked on back end of our websites on Demandware to implement features and shuttle data around',
       'Developing robust code for various functions of our websites',
@@ -14,7 +14,7 @@ const work = [
       'Fixed bugs (life threatening, and not so life threatening), such as mysterious 404s, show stopping credit card bugs and many more',
 
     ],
-    Achievements: [
+    achievements: [
       'Redesigned our bloated six page checkout into a sleek one page wonder',
       'Tore out all of our old CSS and converted it to SASS (cutting off 200kb in the process)',
       'Rewrote thousands of lines of mysterious JavaScript into glorious, understandable React',
@@ -23,22 +23,22 @@ const work = [
       'Got certifications for developing in Demandware',
       'Have significantly reduced the amount of dirty, dirty hacks that run in my code',
     ],
-    TimePeriod: 'Feb 2016 - Present',
+    timePeriod: 'Feb 2016 - Present',
   }, {
-    CompanyName: 'Apple Inc.',
-    Role: 'Specialist',
-    Responsibilities: [
+    companyName: 'Apple Inc.',
+    role: 'Specialist',
+    responsibilities: [
       'Sold people products to help them solve their problems',
       'Learnt how to take apart and repair Apple products',
       'Trained new staff one on one and in groups, and mentored them',
       'Empathised with customers, and helped with their issues',
     ],
-    Achievements: [
+    achievements: [
       'Learnt how to figure out what people care about, and tailor my service to that',
       'Figured out how powerful empathy is, especially in solving problems that angry and frustrated people have',
       'Developed great skills in balancing competing needs of different parties',
     ],
-    TimePeriod: 'Dec 2010 - Feb 2016',
+    timePeriod: 'Dec 2010 - Feb 2016',
   },
 ];
 
