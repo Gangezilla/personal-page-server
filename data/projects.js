@@ -1,8 +1,31 @@
 const projects = [
   {
+    name: 'scottgangemi.com',
+    description: 'This very page',
+  },
+  {
+    name: 'DOM Node Counter',
+    description: 'This is a small (and rough) Chrome plugin to count the number of DOM Nodes in an element when you hover over it.',
+    reflection: ' I built this after trying to optimise a page at work and that page\'s lighthouse score was affected by the very high number of DOM nodes on the page. This helped me to track down some of the weightier elements on the page and trim them down a bit. Of course, this didn\'t do too much to the overall performance of the page but hey, every little bit helps.',
+    techUsed: ['Chrome Plugin'],
+    dateCreated: 'October 2017',
+  },
+  {
+    name: 'hCard Builder',
+    description: 'This was the "final exam" to work at Domain. It is an application to allow users to build their own contact card using the hCard format.',
+    reflection: 'This was a culmination of all the React knowledge I\'d taken from my work at APG and my learning at home to build something reasonably complex. In the end, I was really happy with how it turned out and I suppose so were the people I work with at Domain. There\'s a lot of things in here that I\'d do differently now (such as all the webpack config, and the overly verbose Redux when it probably should be plain old React) but it is indicative of where I was at the time and is great to look back on and see how I\'ve grown since.',
+    techUsed: [
+      'SASS',
+      'React',
+      'Redux',
+    ],
+    dateCreated: 'Mar 2017',
+    github: 'https://github.com/Gangezilla/hCard-Builder',
+  },
+  {
     name: 'Recipe Box',
     description: 'An application made entirely in React and Redux that allows you to create, edit, and delete all your favourite recipes. Because cataloguing the things you like to eat is just as fun as eating them, right?',
-    reflection: "When I made this I was knee deep in overhauling our JavaScript at work into React and Redux, and wanted more experience in working in this environment, plus, I wanted to validate that the way we were approaching our problems at work was the correct way to go about it. Doing a project like this is great because it really validates my learning and helps me feel like I actually do know what I'm doing, which is always great.",
+    reflection: 'When I made this I was knee deep in overhauling our JavaScript at work into React and Redux, and wanted more experience in working in this environment, plus, I wanted to validate that the way we were approaching our problems at work was the correct way to go about it. Doing a project like this is great because it really validates my learning and helps me feel like I actually do know what I\'m doing, which is always great.',
     techUsed: [
       'SASS',
       'React',
