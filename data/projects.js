@@ -2,13 +2,22 @@ const projects = [
   {
     name: 'scottgangemi.com',
     description: 'This very page',
+    reflection: 'This is maybe the fourth or fifth iteration of my site that I\'ve had, and I think it\'s the best yet. Now, my resume and website are a bit closer (apart from fonts), and this version is the most lightweight version yet. My goal with this website was to get to a point where my website wouldn\'t need to be updated continually like I\'ve had to do in the past, but I would be able to update the data and it would take care of itself from there and I think that I\'ve reached that point now.',
+    techUsed: [
+      'React',
+      'Node',
+      'Glamorous',
+    ],
+    dateCreated: 'December 2017',
+    github: 'https://github.com/Gangezilla/personal-page-server',
   },
   {
     name: 'DOM Node Counter',
     description: 'This is a small (and rough) Chrome plugin to count the number of DOM Nodes in an element when you hover over it.',
     reflection: ' I built this after trying to optimise a page at work and that page\'s lighthouse score was affected by the very high number of DOM nodes on the page. This helped me to track down some of the weightier elements on the page and trim them down a bit. Of course, this didn\'t do too much to the overall performance of the page but hey, every little bit helps.',
     techUsed: ['Chrome Plugin'],
-    dateCreated: 'October 2017',
+    dateCreated: 'November 2017',
+    github: 'https://github.com/Gangezilla/dom-node-counter',
   },
   {
     name: 'hCard Builder',
