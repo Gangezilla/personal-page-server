@@ -1,23 +1,53 @@
 const work = [
   {
     companyName: 'Domain Group',
-    role: 'Front End Developer',
+    role: 'JavaScript Developer (Full Stack)',
     responsibilities: [
-      'Create, modify and update React components across all of Domain\'s websites.',
-      'Work on server side microservices to present data to React components, which has included pulling data from various Domain microservices, writing this to an API which then gets passed to the front end',
+      'Worked on a number of Node servers and APIs.',
+      'Writing server side JavaScript to solve various problems, usually centered around collecting data and presenting it to the front end.',
     ],
     achievements: [
-      'Worked across the entire stack to get Domain\'s updated listing pages out the door. This involved a ground up rewrite of the front end into React, and a ground up rewrite of the servers from C# legacy code into Node. This has led to about a 150% performance improvement when compared to the old pages.',
+      'Work on server side microservices to present data to React components, which has included pulling data from various Domain microservices, writing this to an API which then gets passed to the front end',
+      'Developed my Node and JavaScript skills  by fighting fires, big and small.',
+      'Focused on mentoring new staff, and have seen really awesome gains in their learning.',
+      'Have worked on a number of microservices that make up Domain\'s websites',
+      'I\'ve taken great joy in refactoring existing projects and making them easier to work on',
+      'Conduct code review for my team mates',
+    ],
+    timePeriod: 'Feb 2017 - Now',
+  },
+  {
+    companyName: 'NodeGirls',
+    role: 'Mentor and Teacher',
+    responsibilities: [
+      'Mentor individuals in Express/Node fundamentals',
+      'Helped to organise and then run a React workshop',
+    ],
+    achievements: [
+      'Mentoring and teaching has become one of my favourite things.',
+      'Being able to play a small part in improving diversity is an incredible privilege.',
+      'Helped individuals understand and solve problems using Express and Node.',
+      'Helped put together a React workshop, and then facilitated this to about 35 people with a few other mentors.',
+      'Was able to break down pretty complex concepts and help first timers understand them.',
+    ],
+  },
+  {
+    companyName: 'Domain Group',
+    role: 'Front End Developer',
+    responsibilities: [
+      'Create, modify and update React components across a number of of Domain\'s sites.',
+    ],
+    achievements: [
+      'Solved enough Node problems to be promoted to Full Stack Developer',
+      'Worked to update Domain\'s listing pages, including a ground up rewrite of the front end into React, and a the servers from C# into Node. This has led to about a 150% performance improvement when compared to the old pages.',
       'Worked to optimise the new listing pages performance and reducing the size of the app',
       'Participate in code reviews, both online and offline',
       'Worked in an agile team',
-      'Gave a talk in Domain\'s fortnightly sprint review about the work our team had done.',
-      'Have become much more confident working with React',
-      'Have learned a lot about working with Node, and about programming servers in general',
-      'Have worked on a number of microservices that make up Domain\'s websites',
+      'Presented my team\'s work to the company.',
+      'Developed new React components, built on, and refactored existing React components',
       'Contributed to open source projects',
     ],
-    timePeriod: 'May 2017 - Present',
+    timePeriod: 'Apr 2017 - Feb 2017',
   },
   {
     companyName: 'APG & Co.',
@@ -47,6 +77,7 @@ const work = [
     companyName: 'Apple Inc.',
     role: 'Specialist',
     responsibilities: [
+      'Ran workshops to teach people how to use their new or old products',
       'Sold people products to help them solve their problems',
       'Learnt how to take apart and repair Apple products',
       'Trained new staff one on one and in groups, and mentored them',
