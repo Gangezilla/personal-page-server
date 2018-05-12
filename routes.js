@@ -3,11 +3,14 @@ const logger = require('./config/logger');
 const work = require('./data/work');
 const education = require('./data/education');
 const projects = require('./data/projects');
+const serverRenderer = require('./config/renderer');
 
 const router = express.Router();
 
+router.use('^/$', serverRenderer);
+
 router.get('/work/', (req, res) => {
-  logger.info('Work route hit, sending back work data');
+  console.log('??');
   res.send(work);
 });
 
