@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const routes = require('./routes');
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.static('build'));
 
@@ -18,6 +18,13 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json({
   limit: '5mb',
 }));
+
+// app.use((req, res, next) => {
+//   if (!req.secure) {
+//     return res.redirect(['https://', req.get('Host'), req.url].join(''));
+//   }
+//   next();
+// });
 
 app.use('/', routes);
 

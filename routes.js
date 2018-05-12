@@ -1,5 +1,4 @@
 const express = require('express');
-const logger = require('./config/logger');
 const work = require('./data/work');
 const education = require('./data/education');
 const projects = require('./data/projects');
@@ -7,7 +6,6 @@ const projects = require('./data/projects');
 const router = express.Router();
 
 router.get('/work/', (req, res) => {
-  logger.info('Work route hit, sending back work data');
   res.send(work);
 });
 

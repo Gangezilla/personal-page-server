@@ -32,6 +32,7 @@ const work = [
       'Helped put together a React workshop, and then facilitated this to about 35 people with a few other mentors.',
       'Was able to break down pretty complex concepts and help first timers understand them.',
     ],
+    timePeriod: 'Feb 2018 - Now',
   },
   {
     companyName: 'Domain Group',
