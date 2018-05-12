@@ -16,7 +16,7 @@ const work = [
       'I\'ve taken great joy in refactoring existing projects and making them easier to work on',
       'Conduct code review for my team mates',
     ],
-    timePeriod: 'Feb 2017 - Now',
+    timePeriod: 'Feb 2018 - Now',
   },
   {
     companyName: 'NodeGirls',
