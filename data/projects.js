@@ -1,5 +1,78 @@
 const projects = [
   {
+    name: 'Galaga clone',
+    description: 'More learning by doing for Python and OO, this time to replicate Galaga or some other space ship shooter.',
+    reflection: 'This one is still a work in progress, but graphics programming is a really interesting challenge compared to front end/back end programming. I feel like I have a much better understanding of how to construct an application using OO methodology.',
+    techUsed: [
+      'Python',
+      'Pygame',
+    ],
+    dateCreated: 'May 2018',
+    github: 'https://github.com/Gangezilla/galaga-clone',
+  },
+  {
+    name: 'Space Invaders clone',
+    description: 'To continue learning OO I started making a little Space Invaders clone in Python Canvas.',
+    reflection: 'More learning by doing. However, some basic Googling would have told me that Python canvas wasn\'t really the right tool for this job... It was pretty tricky to get things like collision detection working in a reliable way, so I abandoned this one pretty quickly. I was able to think in a much cleaner OO way this time around, so the code makes a bit more sense.',
+    techUsed: [
+      'Python',
+    ],
+    dateCreated: 'May 2018',
+    github: 'https://github.com/Gangezilla/py-invaders',
+  },
+  {
+    name: 'Notes Clone',
+    description: 'After dabbling with C# I wanted to keep looking at other languages and begun investigating Python. At the same time I wanted to begin moving away from writing web applications in my spare time; I figure you can learn more by learning about different paradigms, and being able to see how people solve problems in different contexts. This was a really basic Notes app for desktop, it doesn\'t really work, and was mostly for me to try to wrap my head around programming in an OO style and learn a bit about Python',
+    reflection: 'I was using Tkinter to make the UI for this, and it made me REALLY appreciate how good we have it on the web with HTML and CSS. Tkinter is great, but the range of expression you can have online is so incredible. I found it really hard to separate the GUI logic from the application logic in this project so the code is a bit messy. I didn\'t end up finishing this, because it was a way of learning by doing.',
+    techUsed: [
+      'Python',
+      'Tkinter',
+    ],
+    dateCreated: 'Apr 2018',
+    github: 'https://github.com/Gangezilla/notes-py',
+  },
+  {
+    name: 'Eating Confessions',
+    description: 'So if I had to be a sin, I would definitely be gluttony. I love to eat, and often I\'ll eat a little (a lot) too much. I figured there have to be others out in the world who like to eat as much as I do, so I threw together this app to allow people to post stream of consciousness style eating confessions.',
+    reflection: 'Lately I\'ve been really keen to break out of my JavaScript bubble and begin learning some other languages. I\'m also really keen to learn other programming paradigms like OO, considering that so much of the world still uses OO languages. I wrote this in C# using the latest .NET Core, and it was quite an interesting experience. My biggest shock was realising that in .NET there are actual ways to do things, instead of "whatever you feel like" like it is in JavaScript.',
+    techUsed: [
+      'React',
+      'Emotion',
+      '.NET Core',
+      'C#',
+    ],
+    dateCreated: 'Apr 2018',
+    github: 'https://github.com/Gangezilla/eating-confessions',
+  },
+  {
+    name: 'Housies',
+    description: 'When I was living with my housemates last year, we lived in a pretty crappy run down house. We had a good time living there, but we were really excited to move out. When we were moving out and saying our goodbyes, we talked about how we could pass on the knowledge about the house to whoever moved in after us. Knowledge such as: your neighbours will probably try to sell you drugs, and if you open the windows at night, your room will literally fill up with cockroaches. Based on this conversation I threw together a little app to allow people to find their rental, and then post a review for it.',
+    reflection: 'This was fun! I haven\'t had much professional exposure to SQL, so I got to play around with PostgreSQL and build on the Node knowledge I\'ve developed at work. The app is a bit barebones, but it\'s functional (last time I checked). I didn\'t know what a schema was when I was making this, so the database is pretty messy but that\'s why we learn, right?.',
+    techUsed: [
+      'React',
+      'Node',
+      'Express',
+      'PostgreSQL',
+      'Styled Components',
+    ],
+    dateCreated: 'Jan 2018',
+    link: 'https://housies.herokuapp.com',
+    github: 'https://github.com/Gangezilla/housies-fe',
+  },
+  {
+    name: 'EDM Builder',
+    description: 'At my old job at APG, one of my job functions was to build EDM\'s. I found it very arduous, so I tried to make something to make that a lot easier. It ultimately got too complex, but it was a fun ride while it lasted.',
+    reflection: 'I wrote a blog post about this <a href="https://medium.com/@scottgangemi/learn-by-building-fbbc4405f53d">here</a>, it goes in a bit more detail about the project.',
+    techUsed: [
+      'Node',
+      'Express',
+      'React',
+      'Redux',
+    ],
+    dateCreated: 'Apr 2018 (I made it 6 months before, but only released it now)',
+    github: 'https://github.com/Gangezilla/edm-release',
+  },
+  {
     name: 'scottgangemi.com',
     description: 'This very page',
     reflection: 'This is maybe the fourth or fifth iteration of my site that I\'ve had, and I think it\'s the best yet. Now, my resume and website are a bit closer (apart from fonts), and this version is the most lightweight version yet. My goal with this website was to get to a point where my website wouldn\'t need to be updated continually like I\'ve had to do in the past, but I would be able to update the data and it would take care of itself from there and I think that I\'ve reached that point now.',
@@ -34,14 +107,13 @@ const projects = [
   {
     name: 'Recipe Box',
     description: 'An application made entirely in React and Redux that allows you to create, edit, and delete all your favourite recipes. Because cataloguing the things you like to eat is just as fun as eating them, right?',
-    reflection: 'When I made this I was knee deep in overhauling our JavaScript at work into React and Redux, and wanted more experience in working in this environment, plus, I wanted to validate that the way we were approaching our problems at work was the correct way to go about it. Doing a project like this is great because it really validates my learning and helps me feel like I actually do know what I\'m doing, which is always great.',
+    reflection: 'When I made this I was knee deep in overhauling our JavaScript at APG into React and Redux. I wanted more experience building with React and I wanted to validate the solutions we were using at to solve our problems at work. Doing a project like this is great because it really validates my learning and helps me feel like I actually do know what I\'m doing, which is always great.',
     techUsed: [
       'SASS',
       'React',
       'Redux',
     ],
     dateCreated: 'February 2017',
-    link: '/recipes',
     github: 'https://github.com/Gangezilla/recipe-box',
   },
   {
@@ -53,7 +125,6 @@ const projects = [
       'React',
     ],
     dateCreated: 'December 2016',
-    link: '/markdown',
     github: 'https://github.com/Gangezilla/markdown-preview',
   },
   {
@@ -64,7 +135,6 @@ const projects = [
       'D3.js',
     ],
     dateCreated: 'September 2016',
-    link: '/barchart',
     github: 'https://github.com/Gangezilla/bar-chart',
   },
   {
@@ -135,7 +205,6 @@ const projects = [
       'jQuery',
     ],
     dateCreated: 'February 2016',
-    link: '/wiki',
     github: 'https://github.com/Gangezilla/wikiViewer',
   },
   {
@@ -149,7 +218,6 @@ const projects = [
       'jQuery',
     ],
     dateCreated: 'February 2016',
-    link: '/twitch',
     github: 'https://github.com/Gangezilla/twitch',
   },
   {

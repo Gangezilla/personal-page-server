@@ -3,12 +3,14 @@ const work = [
     companyName: 'Domain Group',
     role: 'JavaScript Developer (Full Stack)',
     responsibilities: [
+      'Build, test and deliver high-quality code for front and back end tickets.',
       'Worked on a number of Node servers and APIs.',
       'Writing server side JavaScript to solve various problems, usually centered around collecting data and presenting it to the front end.',
     ],
     achievements: [
+      'Help to define software architecture, setting up technology and working with my team to get them up to speed.',
       'Work on server side microservices to present data to React components, which has included pulling data from various Domain microservices, writing this to an API which then gets passed to the front end',
-      'Developed my Node and JavaScript skills  by fighting fires, big and small.',
+      'Developed my Node and JavaScript skills by fighting many fires.',
       'Focused on mentoring new staff, and have seen really awesome gains in their learning.',
       'Have worked on a number of microservices that make up Domain\'s websites',
       'I\'ve taken great joy in refactoring existing projects and making them easier to work on',

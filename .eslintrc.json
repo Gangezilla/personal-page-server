@@ -5,6 +5,9 @@
       "jsx-a11y",
       "import"
   ],
+  "env": {
+    "browser": true
+  },
   "rules": {
     "no-negated-condition": 2,
     "max-len": [2, {
@@ -29,6 +32,7 @@
     "no-case-declarations": 0,
     "react/prop-types": 0,
     "react/no-string-refs": 0,
+    "react/jsx-filename-extension": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/href-no-hash": 0,
     "no-console": 1
