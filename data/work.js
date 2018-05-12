@@ -50,7 +50,7 @@ const work = [
       'Developed new React components, built on, and refactored existing React components',
       'Contributed to open source projects',
     ],
-    timePeriod: 'Apr 2017 - Feb 2017',
+    timePeriod: 'Apr 2017 - Feb 2018',
   },
   {
     companyName: 'APG & Co.',
