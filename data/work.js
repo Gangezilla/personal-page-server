@@ -9,7 +9,7 @@ const work = [
     ],
     achievements: [
       'Help to define software architecture, setting up technology and working with my team to get them up to speed.',
-      'Work on server side microservices to present data to React components, which has included pulling data from various Domain microservices, writing this to an API which then gets passed to the front end',
+      'Work on server side microservices to present data to React components, which has included pulling data from various Domain microservices',
       'Developed my Node and JavaScript skills by fighting many fires.',
       'Focused on mentoring new staff, and have seen really awesome gains in their learning.',
       'Have worked on a number of microservices that make up Domain\'s websites',
