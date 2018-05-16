@@ -1,19 +1,20 @@
 const work = [
   {
     companyName: 'Domain Group',
-    role: 'JavaScript Developer (Full Stack)',
+    role: 'Full Stack Javascript Developer',
     responsibilities: [
-      'Build, test and deliver high-quality code for front and back end tickets.',
-      'Worked on a number of Node servers and APIs.',
+      'Build, test and deliver high-quality front and back end code.',
+      'Work on several Node servers and APIs.',
       'Writing server side JavaScript to solve various problems, usually centered around collecting data and presenting it to the front end.',
     ],
     achievements: [
+      'Worked to rebuild Domain\'s listings pages, for example, <a href="https://www.domain.com.au/project/2230/the-retreat-sydney-olympic-park-nsw/">the project pages</a> and <a href="https://www.domain.com.au/1-5-carter-street-sydney-olympic-park-nsw-2127-2013564008?ph=nx">listings pages</a>.',
+      'Worked on refactoring, and cleaning up Domain\'s React <a href="https://www.domain.com.au/new-homes/sydney-nsw-2000/">Map Search product</a>.',
       'Help to define software architecture, setting up technology and working with my team to get them up to speed.',
       'Work on server side microservices to present data to React components, which has included pulling data from various Domain microservices',
-      'Developed my Node and JavaScript skills by fighting many fires.',
       'Focused on mentoring new staff, and have seen really awesome gains in their learning.',
       'Have worked on a number of microservices that make up Domain\'s websites',
-      'I\'ve taken great joy in refactoring existing projects and making them easier to work on',
+      'Refactoring existing projects and making them easier to work on.',
       'Conduct code review for my team mates',
     ],
     timePeriod: 'Feb 2018 - Now',
