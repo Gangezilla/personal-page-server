@@ -8,8 +8,8 @@ const work = [
       'Writing server side JavaScript to solve various problems, usually centered around collecting data and presenting it to the front end.',
     ],
     achievements: [
-      'Worked to rebuild Domain\'s listings pages, for example, <a href="https://www.domain.com.au/project/2230/the-retreat-sydney-olympic-park-nsw/">the project pages</a> and <a href="https://www.domain.com.au/1-5-carter-street-sydney-olympic-park-nsw-2127-2013564008?ph=nx">listings pages</a>.',
-      'Worked on refactoring, and cleaning up Domain\'s React <a href="https://www.domain.com.au/new-homes/sydney-nsw-2000/">Map Search product</a>.',
+      'Worked to rebuild the React front end and Node back end of Domain\'s listings pages, for example, <a href="https://www.domain.com.au/project/2230/the-retreat-sydney-olympic-park-nsw/">the project pages</a> and <a href="https://www.domain.com.au/1-5-carter-street-sydney-olympic-park-nsw-2127-2013564008?ph=nx">listings pages</a>.',
+      'Worked on refactoring, and cleaning up Domain\'s React <a href="https://www.domain.com.au/new-homes/sydney-nsw-2000/">Map Search product</a>, as well as it\'s Node server.',
       'Help to define software architecture, setting up technology and working with my team to get them up to speed.',
       'Work on server side microservices to present data to React components, which has included pulling data from various Domain microservices',
       'Focused on mentoring new staff, and have seen really awesome gains in their learning.',
