@@ -1,6 +1,8 @@
 const express = require('express');
-const logger = require('./config/logger');
+const subdomain = require('express-subdomain');
 const helmet = require('helmet');
+
+const logger = require('./config/logger');
 const bodyParser = require('body-parser');
 const routes = require('./routes');
 
@@ -19,14 +21,9 @@ app.use(bodyParser.json({
   limit: '5mb',
 }));
 
-// app.use((req, res, next) => {
-//   if (!req.secure) {
-//     return res.redirect(['https://', req.get('Host'), req.url].join(''));
-//   }
-//   next();
-// });
-
 app.use('/', routes);
+
+app.use(subdomain('blog', express.static('blog')));
 
 logger.info('App has been initialised.');
 
