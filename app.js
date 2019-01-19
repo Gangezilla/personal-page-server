@@ -1,5 +1,4 @@
 const express = require('express');
-const subdomain = require('express-subdomain');
 const helmet = require('helmet');
 
 const logger = require('./config/logger');
@@ -22,8 +21,6 @@ app.use(bodyParser.json({
 }));
 
 app.use('/', routes);
-
-app.use(subdomain('blog', express.static('blog')));
 
 logger.info('App has been initialised.');
 
