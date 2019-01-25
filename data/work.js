@@ -1,5 +1,20 @@
 const work = [
   {
+    companyName: 'Expert360',
+    role: 'Software Engineer',
+    responsibilities: [
+      'Developing new features in React and Elixir',
+      'Rebuilding old features, and working to transition away from our legacy codebase',
+      'Optimising performance on new code, and old code that we can\'t rip out yet.',
+    ],
+    achievements: [
+      'Added numerous new features in our new Elixir/React codebase',
+      'Worked around dusty code to meet business requirements for new products, in legacy code',
+      'Added new features, and brought our design system up to spec, sorted out the build pipeline and rolled it out into our codebase',
+    ],
+    timePeriod: 'Jul 2018 - Present',
+  },
+  {
     companyName: 'Domain Group',
     role: 'Full Stack Javascript Developer',
     responsibilities: [
@@ -17,7 +32,7 @@ const work = [
       'Refactoring existing projects and making them easier to work on.',
       'Conduct code review for my team mates',
     ],
-    timePeriod: 'Feb 2018 - Now',
+    timePeriod: 'Apr 2017 - Jul 2018',
   },
   {
     companyName: 'NodeGirls',
@@ -33,25 +48,7 @@ const work = [
       'Helped put together a React workshop, and then facilitated this to about 35 people with a few other mentors.',
       'Was able to break down pretty complex concepts and help first timers understand them.',
     ],
-    timePeriod: 'Feb 2018 - Now',
-  },
-  {
-    companyName: 'Domain Group',
-    role: 'Front End Developer',
-    responsibilities: [
-      'Create, modify and update React components across a number of of Domain\'s sites.',
-    ],
-    achievements: [
-      'Solved enough Node problems to be promoted to Full Stack Developer',
-      'Worked to update Domain\'s listing pages, including a ground up rewrite of the front end into React, and a the servers from C# into Node. This has led to about a 150% performance improvement when compared to the old pages.',
-      'Worked to optimise the new listing pages performance and reducing the size of the app',
-      'Participate in code reviews, both online and offline',
-      'Worked in an agile team',
-      'Presented my team\'s work to the company.',
-      'Developed new React components, built on, and refactored existing React components',
-      'Contributed to open source projects',
-    ],
-    timePeriod: 'Apr 2017 - Feb 2018',
+    timePeriod: 'Feb 2018',
   },
   {
     companyName: 'APG & Co.',
